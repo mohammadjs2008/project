@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247 247 247);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    direction: rtl;
+    font-family: 'Tanha-';
+}
+
+.xxx{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    display: flex;
+    padding-top: 900px;
+    gap: 3rem;
+}
+
+
+@font-face{
+    font-family: 'Tanha-';
+    font-style: normal;
+    font-weight: normal;
+    src: url(Tanha-FD.woff2);
+}
+
+a{
+    text-decoration: none;
+        color: white;
+        display: flex;
+        margin-bottom: 20px;
+        height: 40px;
+        align-items: center;
+        padding: 4px 5px;
+        flex-wrap: nowrap;
+        flex: 1;
+        text-align: center;
+}
+
+.sidbar-nav{
+    position: relative;
+}
+
+
+.label-toggle-sidbar::before{
+content: '';
+width: 24px;
+    height: 24px;
+    display: block;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 100;
+    left: -7px;
+    top: 8px;
+}
+
+.label-toggle-sidbar::after{
+    content: '';
+    border-bottom: 2px solid #000;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-right: 2px solid #000;
+    position: absolute;
+    z-index: 120;
+    left: -3px;
+    top: 13px;
+    transform: rotate(317deg);
+}
+
+ul{
+    background-color: rgb(0,0,0,0.7);
+    list-style-type: none;
+    border-radius: 8px;
+    backdrop-filter: blur(21px);
+    padding: 9px 6px 0px 19px;
+    height: 500px;
+    border: 2px solid rgba(255 ,255, 255,0.6);
+    width: 5rem;
+    
+}
+
+
+
+.list_item_nav li{
+    color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+    align-items: center;
+    padding: 4px 5px;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+    
+li:hover{
+    background-color: rgb(226, 226, 226);
+    border-radius: 8px;
+}
+
+
+ li:hover *{
+    color: #000;
+}
+ li i{
+    font-size: 33px;
+}
+ 
+
+
+
+img{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 0 5px 10px rgb(46 46 46);
+    width: 228px;
+    height: 299px;
+}
+
+
+
+
+
+.af{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+    align-items: center;
+    padding: 4px 5px;
+    flex-wrap: nowrap;
+    flex: 1;
+    text-align: center;
+    background-color: #a1a1a1;
+    border-radius: 22px;
+    box-shadow: 0px 5px 12px 5px #c1c1c1;
+}
+
+.col-12.mt-2.text-right.p-0 {
+    width: 570px;
+}
+
+.as{
+    text-decoration: none;
+    color: #f14a4a;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+    align-items: center;
+    padding: 4px 5px;
+    flex-wrap: nowrap;
+    flex: 1;
+    text-align: center;
+}
+
+.cos{
+       padding-right: 3px;
+        background-color: #f1f1f1;
+        border-radius: 12px;
+}
+
