@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: rgb(138, 141, 141);
+    width: 10px;
+    height: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(143, 143, 143);
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+}
