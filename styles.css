@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #e8e8e8;
+    background-image: linear-gradient(71deg ,#86abd9 28%,#ffa0e6f5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@ input:focus,input:active{
     width: 1000px;
     height: 1000px;
     position: fixed;
-    background-image: linear-gradient(to right,#94a3c2,#596888);
+    background-image: linear-gradient(to right,#cf6591 28%,#002b8b);
     z-index: -1;
     border-radius: 100%;
     left: -9rem;
@@ -113,4 +113,8 @@ input:focus,input:active{
     .form-group ,.button-form {
         width: 80%;
     }
+}
+
+.button-form button:hover{
+    background-color: rgb(226, 226, 226);
 }
