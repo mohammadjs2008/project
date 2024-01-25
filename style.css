@@ -86,7 +86,7 @@ img{
   grid-template-columns: repeat(2,1fr);
   max-width: 1200px;
   margin: auto;
-  gap: 5rem;
+  gap: 2rem;
 }
 .left_content_header{
   display: flex;
@@ -156,7 +156,7 @@ span {
   gap: 2rem;
   place-content: center;
   position: relative;
-  padding: 4px;
+  padding: 18px;
 }
 .right_content_header img{
  max-width: 300px;
@@ -497,7 +497,7 @@ ul{
 
 @media screen and (max-width:999px) {
   .box-img-log {
-      min-width: 36px;
+      min-width: 37x;
   }
   .section-log {
       font-size: 0.9rem;
@@ -535,10 +535,10 @@ ul{
       display: none;
   }
   .box-img-log {
-      min-width: 27px;
+      min-width: 44px;
   }
   .section-log h3{
-      font-size: 0.5rem;
+    font-size: 1.2rem;
   }
   .group_icon a svg {
       width: 10px;
@@ -581,15 +581,15 @@ ul{
   
 }
 .line{
-  border-bottom: 2px solid;
-  width: 14px;
-  display: block;
-  margin-bottom: 3px;
-  transition: all 260ms ease-out;
-  -webkit-transition: all 260ms ease-out;
-  -moz-transition: all 260ms ease-out;
-  -ms-transition: all 260ms ease-out;
-  -o-transition: all 260ms ease-out;
+  border-bottom: 3px solid;
+    width: 17px;
+    display: block;
+    margin-bottom: 4px;
+    transition: all 260ms ease-out;
+    -webkit-transition: all 260ms ease-out;
+    -moz-transition: all 260ms ease-out;
+    -ms-transition: all 260ms ease-out;
+    -o-transition: all 260ms ease-out;
 }
 .section_nav {
   grid-template-columns: 3% 89% 3%;

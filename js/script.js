@@ -1,6 +1,5 @@
-function sumnumbers(nam1,nam2){
-    var resalt = nam1+ nam2
-    alert("resalt=" + resalt)
-}
+var frrandom = Math.random() * 100000
 
-sumnumbers(5,9)
+var capchacode = Math.floor(frrandom)
+
+console.log(capchacode)
